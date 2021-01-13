@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+node_modules/
 
 
 # testing
@@ -32,5 +33,4 @@ yarn-error.log*
 
 .eslintcache
 
-# firebase keys
-firebase/firebase-keys.json
+
