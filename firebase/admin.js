@@ -1,10 +1,12 @@
 var admin = require("firebase-admin");
 
+const serviceAccount = require(process.env.NEXT_PUBLIC_FIREBASE_CONFIG);
+
 console.log(process.env.NEXT_PUBLIC_FIREBASE_CONFIG);
 
 try {
   admin.initializeApp({
-    credential: JSON.parse(process.env.NEXT_PUBLIC_FIREBASE_CONFIG),
+    credential: JSON.parse(serviceAccount),
     databaseURL: process.env.FIREBASE_DATABASE_URL,
   });
 } catch (e) {}
