@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "styles/CoffeePage.module.css";
+import styles from "../../styles/CoffeePage.module.css";
 import Coffee from "../../components/Cofffee";
-import { firestore } from "firebase/admin";
+import { firestore } from "../../firebase/admin";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import useUser from "../../hooks/useUser";

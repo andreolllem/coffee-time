@@ -5,8 +5,8 @@ import Button from "../components//Button/index";
 import GitHub from "../components/Icons/GitHub";
 import styles from "../styles/Home.module.css";
 import Logo from "../components/Icons/Logo";
-import useUser, { USER_STATES } from "hooks/useUser";
-import Layout from "components/Layout";
+import useUser, { USER_STATES } from "../hooks/useUser";
+import Layout from "../components/Layout/index";
 
 import { loginWithFacebook } from "../firebase/client";
 

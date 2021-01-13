@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import styles from "styles/ComposeTweet.module.css";
+import styles from "../../../styles/ComposeTweet.module.css";
 import Button from "../../../components/Button";
 import useUser from "../../../hooks/useUser";
 import Avatar from "../../../components/Avatar";

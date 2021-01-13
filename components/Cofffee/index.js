@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "styles/Coffee.module.css";
+import styles from "../../styles/Coffee.module.css";
 import Avatar from "../../components/Avatar/index";
 import useTimaAgo from "../../hooks/useTimeAgo";
 import useDateTimeFormat from "../../hooks/useDateTimeFormat";
