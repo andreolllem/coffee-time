@@ -1,6 +1,6 @@
 var admin = require("firebase-admin");
 
-const serviceAccount = require(process.env.NEXT_PUBLIC_FIREBASE_CONFIG);
+const serviceAccount = require(process.env.local.NEXT_PUBLIC_FIREBASE_CONFIG);
 
 console.log(process.env.NEXT_PUBLIC_FIREBASE_CONFIG);
 
